@@ -1,6 +1,9 @@
-import java.util*
-import javax.swing.JFrame
+import java.awt.*
+import javax.swing.*
 public class gamelauncher extends Jframe{
+  private JLabel label;
+  private JButton button;
+  private JTextFeild textfeild;
   public static void main (string args[]){
     system.out.println("Hello, Welcome to the Five in a Row!");
     gameLauncher gui = new gameLauncher();
